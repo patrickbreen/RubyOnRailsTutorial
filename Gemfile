@@ -1,12 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'ruby'
+gem 'rails', '4.0.0'
+gem 'bootstrap-sass'
+gem 'rspec-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.9.0'
+
 end
 
 
@@ -14,8 +17,8 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'coffee-rails', "~> 3.1.0"
-  gem 'uglifier', '1.2.3'
+  gem 'coffee-rails'
+  gem 'uglifier'
 
 end
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails tutorial: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="18d20787-92db-4f83-ae3c-19beb5bec696">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tutorial: test" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="0613d946-04ac-4db2-8454-04f5c94e0f46">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tutorial: development" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="3b8303a0-b4c8-49fa-995d-9c1c8ae59f84">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+  </data-source>
+</component>

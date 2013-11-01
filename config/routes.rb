@@ -1,4 +1,10 @@
 Tutorial::Application.routes.draw do
+  get "users/new"
+  root 'static_pages#home'
+  match '/about',   to: 'static_pages#about',   via: 'get'
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/home',    to: 'static_pages#home',    via: 'get'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
